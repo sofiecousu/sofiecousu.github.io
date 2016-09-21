@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stockholm loves fika</title>
+
+    <style>
+
+    		body{
+    			background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5) ), url("http://www.tryswedish.com/assets/fika-featured.jpg");
+    			text-align: center;
+    			background-size:cover;
+
+    		}
+			#fika{
+
+				font-family: Avenir;
+				font-size: 200px;
+    			text-align: center;
+    			margin-top: 100px;
+    			color:white;
+
+			}
+
+
+			.page-content{
+
+				text-align: center;
+				font-size: 100px;
+				font-family: Avenir;
+				margin-top: -150px;
+				color:white;
+			}
+
+			.boxt{
+
+				margin: auto;
+				font-family: Avenir;
+				display: block;
+				max-width: 700px;
+				color:white;
+
+			}
+	
+
+	</style>
+
+		<h1 id="fika">FIKA</h1>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  </head>
+  
+  <body>
+
+    	<h1 class="page-content">
+      
+    </h1>
+
+    <script type="text/javascript">
+    	var count = 0;
+
+    	(function(){
+    // do some stuff
+    count = count + 1;
+    $(".page-content").html(count);
+
+    if(count == 663960) return;
+  
+    setTimeout(arguments.callee, 28);
+
+
+})();
+	</script>
+
+	<script type="text/javascript">
+    $(document).ready(function () {
+        $('.page-content').hide().fadeIn(3000);
+    });
+</script>
+
+<div class="boxt">
+
+    <h3>In Stockholm we looove FIKA</h3>
+    	<p>There are 503.000 peolpe actively working or stydying in Stockholm between the ages of 15-74. We are having a fika 1,1 times / day at work or school and 1,2 times/ day outside work or school. Thats a result of 35,7 peolpe having a fika every second in Stockholm. Thats means that every 28 milliseconds someone new are having a fika. The result on that is that we all together having Fika 1.156 900 times/day</p>
+    	
+    </div>
+
+</script>
+
+	<script type="text/javascript">
+    $(document).ready(function () {
+        $('.boxt').hide().fadeIn(3000);
+    });
+</script>
+
+
+
+
+
+  </body>
+
+</html>
